@@ -33,7 +33,9 @@ module.exports = function transform(arr) {
         }
     }
   });
-    return newArr;
+  
+  return newArr;
+  
 };
 
 
