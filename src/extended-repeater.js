@@ -4,7 +4,7 @@ module.exports = function repeater(str, options) {
 
   let arrStrings = [];
   let arrAddStrings = [];
-  let finalString
+  let finalString;
 
   if (options.hasOwnProperty('repeatTimes')) {               
     if (Number.isInteger(options.repeatTimes) && options.repeatTimes > 0) {
@@ -43,7 +43,6 @@ module.exports = function repeater(str, options) {
   }
   
   finalString = arrStrings.join(options.separator || '+');
-
-  return finalString;
   
+  return finalString;
 }    
